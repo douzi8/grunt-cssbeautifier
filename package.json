@@ -1,0 +1,40 @@
+{
+  "name": "grunt-cssbeautifier",
+  "description": "cssbeautify.com for grunt",
+  "version": "0.1.9",
+  "homepage": "https://github.com/sexnothing/grunt-cssbeautifier",
+  "author": {
+    "name": "liaowei",
+    "email": "sexnothing@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sexnothing/grunt-cssbeautifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sexnothing/grunt-cssbeautifier/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "cssbeautify": "latest"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "latest"
+  },
+  "keywords": [
+    "gruntplugin",
+    "beautify",
+    "beautifier",
+    "cssbeautifier",
+    "code-quality"
+  ],
+  "readmeFilename": "README.md"
+}
