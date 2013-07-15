@@ -17,7 +17,6 @@ module.exports = function(grunt) {
         var original = grunt.file.read(src);
         grunt.verbose.write('Beautifing ' + src.cyan + '...');
         var result = beautify(original, params);
-        result += '\n';
         grunt.verbose.ok();
         if (original !== result) {
           grunt.file.write(src, result);
