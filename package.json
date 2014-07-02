@@ -1,7 +1,7 @@
 {
   "name": "grunt-cssbeautifier",
   "description": "cssbeautify.com for grunt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/sexnothing/grunt-cssbeautifier",
   "author": {
     "name": "liaowei",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "grunt": "~0.4.1",
-    "cssbeautify": "latest"
+    "cssbeautify": "~0.3.1"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "latest"
@@ -36,5 +36,8 @@
     "cssbeautifier",
     "code-quality"
   ],
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "readme": "# grunt-cssbeautifier\r\n\r\n[cssbeautify.com](http://cssbeautify.com/) for grunt\r\n\r\n## Getting Started\r\nThis plugin recommends using Grunt `~0.4.1`.\r\n\r\nIf you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:\r\n\r\n### Grunt `~0.4.1`\r\n```\r\nnpm install grunt-cssbeautifier --save-dev\r\n```\r\n\r\nOne the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\r\n\r\n```\r\ngrunt.loadNpmTasks('grunt-cssbeautifier');\r\n```\r\n\r\n[grunt]: http://gruntjs.com/\r\n[getting_started]: https://github.com/gruntjs/grunt/blob/master/docs/getting_started.md\r\n\r\n## Config\r\n- cssbeautifier\r\n  - files (required): Your source files to beautify\r\n  - options (optional): Overwrite default cssbeautifier options\r\n\r\n### - Minimum config\r\n```\r\ncssbeautifier : {\r\n  files : [\"src/**/*.css\"]\r\n}\r\n```\r\n\r\nDefault options from [cssbeautify](https://github.com/senchalabs/cssbeautify) will be used\r\n\r\n### - Default options\r\n```\r\ncssbeautifier : {\r\n  files : [\"src/**/*.css\"],\r\n  options : {\r\n    indent: '  ',\r\n    openbrace: 'end-of-line',\r\n    autosemicolon: false\r\n  }\r\n}\r\n```\r\nOnly specifiy options to overwrite\r\n\r\n## Release History\r\n* 0.1.0: Initial version.\r\n",
+  "_id": "grunt-cssbeautifier@0.1.2",
+  "_from": "grunt-cssbeautifier@"
 }

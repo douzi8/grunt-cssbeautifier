@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
   "use strict";
   // Please see the grunt documentation for more information regarding task.
-  grunt.task.registerMultiTask('cssbeautifier', 'cssbeautify.com for grunt', function() {
+  grunt.registerMultiTask('cssbeautifier', 'cssbeautify.com for grunt', function() {
     var beautify = require('cssbeautify');
     var params = this.options();
     var fileCount = 0;
